@@ -1,0 +1,22 @@
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  display: inline-block; /* Alinear el texto a la izquierda */
+  margin-right: auto; /* Empuja el ícono hacia la derecha */
+}
+
+img {
+  width: 50px; /* Cambia el tamaño del ícono según lo necesites */
+  height: auto; /* Mantener la proporción de la imagen */
+}
